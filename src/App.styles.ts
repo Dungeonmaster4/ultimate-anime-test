@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     * {
         box-sizing: border-box;
         font-family: 'Roboto Slab', serif;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     html {
       font-size: 62.5%;
@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
 
     @media (max-width: 500px) {
       html {
-      font-size: 50%;
+      font-size: 55%;
     }
     
     }
