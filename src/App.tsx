@@ -62,9 +62,6 @@ function App() {
     }
    }
   
-  console.log(gameOver);
-  
-  
   return (
     <Wrapper className="App">
       <GlobalStyle />

@@ -11,6 +11,11 @@ export const Wrapper = styled.div`
   p {
     font-size: 1rem;
   }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    margin: 4rem 2rem 0 2rem;
+  }
 `;
 
 type Props = {

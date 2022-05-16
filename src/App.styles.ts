@@ -4,19 +4,32 @@ import img from "./img/anime2.jpg";
 
 export const GlobalStyle = createGlobalStyle`
     html {
-        height: 100%;
+        height: 100vh;
     }
     body {
         background-image: url(${img});
-        background-size: 1600px;
+        background-size: cover;
         margin: 0;
         padding: 0 20px;
         display: flex;
         justify-content: center;
+        height: 100vh;
+        width: 100wh;
     }
     * {
         box-sizing: border-box;
         font-family: 'Roboto Slab', serif;
+        overflow: hidden;
+    }
+    html {
+      font-size: 62.5%;
+    }
+
+    @media (max-width: 500px) {
+      html {
+      font-size: 50%;
+    }
+    
     }
 `;
 
@@ -41,7 +54,7 @@ export const Wrapper = styled.div`
     background-size: 100%;
     background-clip: text;
     backdrop-filter: drop-shadow(2px 2px 10px black);
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     margin: 20px;
     font-weight: 400;
@@ -64,5 +77,11 @@ export const Wrapper = styled.div`
   }
   .btn-start {
     max-width: 200px;
+  }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 40px;
+    }
   }
 `;
