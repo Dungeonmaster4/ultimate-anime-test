@@ -9,12 +9,13 @@ export const Wrapper = styled.div`
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 
   p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   @media (max-width: 500px) {
     width: 100%;
-    margin: 4rem 2rem 0 2rem;
+    margin: 2rem 2rem 0 2rem;
+    padding: 5px 20px 20px 20px;
   }
 `;
 
@@ -48,5 +49,11 @@ export const ButtomWrapper = styled.div<Props>`
     border-radius: 10px;
     color: #fff;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 500px) {
+    button {
+      height: 30px;
+    }
   }
 `;
