@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ultimate-anime-test/static/css/main.073c9b0a.css",
-    "main.js": "/ultimate-anime-test/static/js/main.7014a444.js",
+    "main.js": "/ultimate-anime-test/static/js/main.39a74a20.js",
     "static/media/anime2.jpg": "/ultimate-anime-test/static/media/anime2.748dbe87a6432c5031bf.jpg",
     "index.html": "/ultimate-anime-test/index.html",
     "main.073c9b0a.css.map": "/ultimate-anime-test/static/css/main.073c9b0a.css.map",
-    "main.7014a444.js.map": "/ultimate-anime-test/static/js/main.7014a444.js.map"
+    "main.39a74a20.js.map": "/ultimate-anime-test/static/js/main.39a74a20.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7014a444.js"
+    "static/js/main.39a74a20.js"
   ]
 }
